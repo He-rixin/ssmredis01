@@ -12,7 +12,8 @@ import redis.clients.jedis.Jedis;
  */
 public class test {
     public static void main(String[] args) {
-        System.out.println("ssfsaf   ");
+        
+        System.out.println("远程修改");
 //1.读取加载shiro.ini配置文件
         IniSecurityManagerFactory iniSecurityManagerFactory = new IniSecurityManagerFactory("classpath:shiro.ini");
 //2.创建SecurityManager安全管理器
